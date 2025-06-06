@@ -19,7 +19,8 @@ void H2BLBSubtarget::anchor() {}
 
 H2BLBSubtarget::H2BLBSubtarget(const Triple &TT, StringRef CPU, StringRef FS,
                                const TargetMachine &TM)
-    : TargetSubtargetInfo(TT, CPU, /*TuneCPU=*/"", FS, /*PF=*/{},
+  : TargetSubtargetInfo(TT, CPU, /*TuneCPU=*/"", FS, /*PN=*/{},
+                          /*PF=*/{},
                           /*PD=*/{},
                           /*WPR=*/nullptr,
                           /*WL=*/nullptr,
