@@ -13,6 +13,7 @@ add_llvm_target(H2BLBCodeGen
   Core
   Support
   Target
+  SelectionDAG
 
   ADD_TO_COMPONENT
   H2BLB
